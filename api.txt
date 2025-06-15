@@ -1,0 +1,30 @@
+https://mysite.itvarsity.org/api/ContactBook/
+
+get-contacts json array returned, all if not id passed
+add-contact
+edit-contact
+delete-contact
+
+"id":"3"
+"firstname":"Tony";
+"lastname":"Stark";
+"mobile":"123123";
+"email":"xxx@gmail.com"
+"avatar":"5e04.pmg"
+
+add-contact
+FormData object -> server api -> DB
+	Returns 1 if successful or error message if error.
+
+edit-contact
+Formdata object with an ID
+	Returns 1 if successful or error if fails
+
+
+delete-contact
+Only Id
+	Returns 1 if successful or error
+
+If your email address isn’t working as the API key, you can also use this one: appacademy@itvarsity.org
+
+src="${rootPath}controller/uploads/${data[a].avatar}"
